@@ -1,0 +1,37 @@
+[
+  {
+    "name": "src",
+    "isFolder": true,
+    "children": [
+      {
+       "name":"Components",
+       "isFolder":true,
+       "children":[
+        {
+          "name": "App.jsx",
+          "isFolder": false
+        },
+        {
+          "name": "main.jsx",
+          "isFolder": false
+        }
+       ]
+      }
+      
+    ]
+  },
+  {
+    "name": "public",
+    "isFolder": true,
+    "children":[
+      {
+       "name":"vite.svg",
+       "isFolder":false
+      }
+    ]
+  },
+  {
+    "name": "package.json",
+    "isFolder": false
+  }
+]

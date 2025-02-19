@@ -1,0 +1,13 @@
+body{
+    font-family: sans-serif;
+    /* text-align: center; */
+    box-sizing: border-box;
+    /* background-color: #888888; */
+    text-align: center;
+  }
+  
+.folders{
+    text-align: left;
+    padding-left: 20px;
+    cursor: pointer;
+  }
