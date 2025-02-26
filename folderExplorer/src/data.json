@@ -1,5 +1,5 @@
 [
-  {
+  {  "id":1,
     "name": "src",
     "isFolder": true,
     "children": [
@@ -20,7 +20,7 @@
       
     ]
   },
-  {
+  { "id":2,
     "name": "public",
     "isFolder": true,
     "children":[
