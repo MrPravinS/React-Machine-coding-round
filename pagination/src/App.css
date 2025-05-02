@@ -25,6 +25,20 @@
  height: 200px;
 }
 
-.title{
-  text-align: center;
+.pagination-cart{
+  padding: 8px;
+  /* margin: 8px; */
+}
+.n{
+  padding: 8px;
+  border: 1px solid black;
+  margin: 3px;
+  cursor: pointer;
+
+}
+
+
+
+.active{
+  background-color: aquamarine;
 }
