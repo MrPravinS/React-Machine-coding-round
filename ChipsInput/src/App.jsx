@@ -43,7 +43,7 @@ function App() {
               {chip}
               <button
                 onClick={() => handleDeleteChip(index)}
-                className="ml-2 text-blue-500 hover:text-red-500 transition-colors"
+                className="ml-2 text-blue-500 hover:text-red-600 transition-colors"
               >
                 &times;
               </button>
