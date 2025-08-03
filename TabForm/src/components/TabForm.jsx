@@ -4,6 +4,13 @@ import Interest from './Interest'
 import Settings from './Settings'
 
 const TabForm = () => {
+  const [data, setData] = useState({
+    name:"Ajay",
+    age:12,
+    email:"aj@gmail.com",
+    interests:["coding","cricket"],
+    theme:"dark"
+  })
     const [activeTab,setActiveTab] = useState(0)
 
     const tabs = [
@@ -20,7 +27,7 @@ const TabForm = () => {
         }
     ]
 
-    const ActiveTabComponents = tabs[activeTab].component
+    const ActiveTabComponents = tabs[activeTab].component;
   return (
     <div>
     <div className='flex  p-2 mt-2'>
@@ -30,7 +37,7 @@ const TabForm = () => {
      ))}
     </div>
      <div className='p-2 m-2 border h-[200px]'>
-        <ActiveTabComponents/>
+        <ActiveTabComponents data={data} setData={setData}/>
      </div>
     </div>
   )
